@@ -8,3 +8,6 @@ Super simple Sudoku Solver in Python 3.7.7
 - Add more user friendly input method
 - Add support for bigger Sudokus
 - Get Sudokus directly from the given PDFs
+
+### Sources
+Sudokus donwloaded from [here](http://www.sudoku-download.de/sudoku_9x9.php)
