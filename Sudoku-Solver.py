@@ -31,12 +31,7 @@ def solveGrid():
                         solveGrid()
                         sudokuGrid[y][x] = 0
                 return
-
-def doTheThing():
-    print('==> Solving:\n',np.matrix(sudokuGrid))
-    print()
-    solveGrid()
     print('==> Solution:\n',np.matrix(sudokuGrid))
 
-if __name__ == '__main__':
-    doTheThing()
+print('==> Solving:\n',np.matrix(sudokuGrid),'\n')
+solveGrid()
