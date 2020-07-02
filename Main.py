@@ -12,7 +12,7 @@ if __name__ == "__main__":
     # Init
     stage = 1
     size = 9
-    sudokuGrid = None
+    sudokuGrid = [None] * size
 
     # Work Loop
     while True:
@@ -41,7 +41,7 @@ if __name__ == "__main__":
                 # Check row count
                 if row <= size:
                     # Init array
-                    numArray = [None] * size
+                    numArray = [0] * size
                     # Get and clean row
                     line = input('Row['+str(row)+']: ')
                     line = line.replace(' ', '')
