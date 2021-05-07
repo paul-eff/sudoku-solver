@@ -1,5 +1,5 @@
 # Sudoku-Solver
-Super simple Sudoku Solver in Python 3.7.7
+Super simple Sudoku Solver in Python 3.9.4
 
 ### To-Do
 - Get Sudokus directly from the given PDFs
